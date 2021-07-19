@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#app-header {
+  margin-bottom: 25px;
+}
+
+.weather-details p {
+  display: inline-block;
+  margin: 0 6px;
+}
+
+.full {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(84, 139, 175, 0.1);
+}
+
+.highlight {
+  min-height: 250px;
+  padding: 20px 0;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: rgb(34, 53, 116);
+  transition-duration: 2000ms;
+}
+
+.highlight:hover{
+  background-color: rgba(255, 255, 255, 0.5);
+  transition-duration: 2000ms;
+}
+
+.welcome-title {
+  color: black;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.welcome-link {
+  font-size: 20px;
+  background-color: royalblue;
+  padding: 15px 20px;
+  border-radius: 12px;
+  margin-top: 20px;
+}
+
+.welcome-link:hover{
+  background-color: #0040ff;
+  text-decoration: none !important;
+}
